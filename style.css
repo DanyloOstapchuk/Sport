@@ -1,6 +1,15 @@
- .wrapper{
-   
+.wrapper{
+   display: flex;
+   margin: 15px;
+   justify-content: space-around;
  }
+
+  .wrapper2 {
+     display: flex;
+     width: 405px;
+     justify-content:space-between;
+     
+  }
  
  .d1{
     width: 100px;
@@ -20,5 +29,12 @@
     width: 100px;
     height: 100px;
     border: 1px solid;
-    background: yellow;
+    background: rgb(153, 0, 255);
+ }
+ 
+ .d4{
+   width: 100px;
+      height: 100px;
+      border: 1px solid;
+      background: rgb(228, 42, 13);
  }
